@@ -1,18 +1,13 @@
-from sys import argv
-
-script, input_file = argv
-
-
-def print_all(f):
-    print(f.read())
+def add(a, b):
+    print(f"ADDING {a} + {b}")
+    return a + b
 
 
-def rewind(f):
-    f.seek(0)
+def subtract(a, b):
+    print(f"SUBTRACTING {a} + {b}")
+    return a - b
 
 
+age = add(20, 5)
 
-
-
-
-
+print(f"Age: {age}")
